@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 5151
-const SITE_URL = 'https://www.dominos.com.tr';
+const SITE_URL = 'https://www.example.com';
 
 app.get('*', (req, res) => {
     console.log(req.url);
